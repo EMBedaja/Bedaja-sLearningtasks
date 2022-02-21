@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title> My Home Pagae </title>
+  <title> My Home Page </title>
   </head>
   <body>
   <h1> Welcome to My Website! I am Ella Marie Bedaja! </h1>
