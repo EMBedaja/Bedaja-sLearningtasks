@@ -6,7 +6,7 @@ body {
 
     #mainbox {
     width:1300px;
-    height: 800px;
+    height: 850px;
     background-color:#4B2E07;
     opacity: 80%;
     margin-left: 1%;
@@ -23,7 +23,7 @@ body {
 }
     #mainbox #firstrow .Running {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left: 3%;
@@ -39,7 +39,7 @@ body {
 }
     #mainbox #firstrow .Law {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
@@ -56,7 +56,7 @@ body {
 }
 #mainbox #firstrow .Busted {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
@@ -73,7 +73,7 @@ body {
 }
 #mainbox #firstrow .Sixth {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
@@ -90,7 +90,7 @@ body {
 } 
 #mainbox #firstrow .Bros {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
@@ -105,25 +105,25 @@ body {
 #mainbox #firstrow .Bros p {
     font-size:14px;
 }
-#mainbox #secondrow .married {
+#mainbox #secondrow .Village {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
     float:left;
     color: beige; 
 }
-#mainbox #secondrow .married img{
+#mainbox #secondrow .Village img{
     width:100%;
      height:37%;
 }
-#mainbox #secondrow .married p {
+#mainbox #secondrow .Village p {
     font-size:14px;
 }
 #mainbox #secondrow .Rendezvous {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
@@ -139,7 +139,7 @@ body {
 }
 #mainbox #secondrow .Master {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
@@ -153,25 +153,26 @@ body {
 #mainbox #secondrow .Master p {
     font-size:14px;
 }
-#mainbox #secondrow .Village {
+#mainbox #secondrow .married {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
     float:left;
     color: beige; 
 }
-#mainbox #secondrow .Village img{
+#mainbox #secondrow .married img{
     width:100%;
      height:37%;
 }
-#mainbox #secondrow .Village p {
+#mainbox #secondrow .married p {
     font-size:14px;
 }
+
 #mainbox #secondrow .Saturday {
     width:15%;
-    height:95%;
+    height:100%;
     padding:5px;
     border: solid 3px #9A7B4F;
     margin-left:3%;
