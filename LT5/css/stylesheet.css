@@ -1,0 +1,57 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    
+}
+#wrapper{
+    width:1024px;
+    min-height: 700px;
+    margin-left:2%;
+    margin-right:2%;
+    
+    
+    
+
+}
+div[id='block-1']{
+    width:250px;
+    height:250px;
+    border:2px solid #000; 
+     float:left;
+    padding:1px;
+}
+div[id='block-2']{
+    width:250px;
+    height:250px;
+  
+    border:2px solid #000; 
+     float:left;
+    padding:1px;
+}
+div[id='block-3']{
+    width:250px;
+    height:250px;
+    
+    border:2px solid #000; 
+     float:left;
+    padding:1px;
+}
+div[id='block-4']{
+    width:250px;
+    height:250px;
+   
+    border:2px solid #000; 
+     float:left;
+    padding:1px;
+}
+div[id='block-5']{
+    width:250px;
+    height:250px;
+    
+    border:2px solid #000; 
+    float:left;
+    padding:1px;
+}
