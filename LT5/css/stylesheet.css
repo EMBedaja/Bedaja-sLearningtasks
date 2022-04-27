@@ -4,12 +4,9 @@ body {
     background-position: center;
     background-size: cover;
 }
-
  #mainbox {
     width:1100px;
     height: 700px;
-   
-
 }
 #mainbox #firstrow {
     width:1000px;
@@ -55,16 +52,12 @@ body {
     border-radius: 15px 50px;
     margin-left:30px;
      margin-top: 520px;
-
 }
-
 #mainbox #firstrow .Pablo img{
     width:165px;
     height:200px;
     border-radius: 15px 50px;
 }
-
-
 #mainbox #firstrow .Stell {
     width:165px;
     height:200px;
@@ -87,7 +80,6 @@ body {
     border-radius: 15px 50px;
     margin-left:30px;
     margin-top: 520px;
-
 }
 #mainbox #firstrow .Josh img{
     width:165px;
