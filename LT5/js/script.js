@@ -1,4 +1,4 @@
 /eslint-env browser /
 function setNewImage () {
-    document.getElementById("jah").src = "images/jah.jpg";
+    document.getElementById('jah').src = "images/jah.gif";
 } 
