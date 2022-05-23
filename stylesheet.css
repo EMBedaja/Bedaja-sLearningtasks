@@ -7,7 +7,7 @@ body{
     --violet:#F15890;
 }
 
-#user{
+s.user{
    font-family: 'Satisfy', cursive;
     margin:0; padding:0;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ header{
     text-align: center;
 }
 
-header #user img{
+header .user img{
     height:17rem;
     width:17rem;
     border-radius: 10%;
@@ -40,19 +40,19 @@ header #user img{
     margin-bottom: 1rem;
     border:.4px solid var( --violet);
 }
-header #user img:hover{
+header .user img:hover{
      opacity:90%;
     width:20rem;
      cursor: pointer;
 }
 
-header #user #name{
+header .user .name{
     font-size: 3.5rem;
     color:#fff;
     margin-top: 2px;
 }
 
-header #user #post{
+header .user .post{
     font-family: 'Merriweather', serif;
     font-size: 15px;
     color:#fff;
@@ -60,19 +60,19 @@ header #user #post{
 
 }
 
-header #navbar {
+header .navbar {
     font-family: 'Prompt', sans-serif;
     width:50%;
  
 }
 
-header #navbar p {
+header .navbar p {
     list-style:inherit;
     padding:1rem 3rem;
 }
 
 
-header #navbar p a{
+header .navbar p a{
     display: block;
     padding:1rem;
     margin-top: -15px;
@@ -82,7 +82,7 @@ header #navbar p a{
     border-radius: 5rem;
 }
 
-header #navbar p a:hover{
+header .navbar p a:hover{
     background:var( --violet);
 }
 
@@ -110,7 +110,7 @@ section{
     padding:1rem;
 }
 
-#btn{
+.btn{
     padding:.7rem 3rem;
     background:#76020F;
     color:#fff;
@@ -120,16 +120,16 @@ section{
     border-radius: 1rem;
 }
 
-#btn i{
+.btn i{
     padding:0 .5rem;
     font-size: 1.8rem;
 }
 
-#btn:hover{
+.btn:hover{
     background:#FD5457;
 }
 
-#heading{
+.heading{
     font-family: 'Merriweather', serif;
     text-align: center;
      margin-top: 100px;
@@ -138,8 +138,7 @@ section{
     border-bottom: .1rem solid #fff4;
     color:#fff;
 }
-
-#heading span{
+.heading span{
     font-family: 'Satisfy', cursive;
     color:var( --violet);
 }
@@ -155,12 +154,12 @@ section{
     z-index: 1000;
     display: none;
 }
-#home img{
+.home img{
     margin-top: -100px;
     margin-left: -180px;
     margin-right: -100px;
 }
-#home{
+.home{
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -168,19 +167,19 @@ section{
     padding:0 15rem;
 }
 
-#home h1{
+.home h1{
     margin-top: -160px;
     margin-left:-25px;
     font-size:4rem;
     color:#fff;
 }
 
-#home h1 span{
+.home h1 span{
     font-family: 'Satisfy', cursive;
     color:var( --violet);
 }
 
-#home p{
+.home p{
     font-family: 'Merriweather', serif;
     margin-top: -30px;
     margin-left:-25px;
@@ -190,14 +189,14 @@ section{
 
     
 }
-#about #row{
+.about .row{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding:1rem 0;
 }
-#row img{
+.row img{
     height:30rem;
     width:30rem;
     border-radius: 10% 30%;
@@ -206,12 +205,12 @@ section{
     border:5px solid #76020F;
     
 }
-#about #row #info{
+.about .row .info{
     margin-top: -300px;
     margin-left: -320px;
 }
 
-#about #row #info h3{
+.about .row .info h3{
     font-size: 2rem;
     color:var( --violet);
     padding:1rem 0;
@@ -219,25 +218,24 @@ section{
     margin-left: 320px;
 }
 
-#about #row #info h3 span{
+.about .row .info h3 span{
     color:#eee;
     padding:0 .5rem;
 }
-#about #row #info p{
+.about .row .info p{
      font-family: 'Satisfy', cursive;
     color:#FFA9C1;
     font-size: 40px;
     margin-left: 320px;
     text-align: center;
 }
-#about #row #counter{
+.about .row .counter{
     flex:1 1 48rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-
-#about #row #counter #box{
+.about .row .counter .box{
     width:20rem;
     background:#222;
     text-align: center;
@@ -246,26 +244,26 @@ section{
     margin:2rem;
 }
 
-#about #row #counter #box span{
+.about .row .counter .box span{
     font-size: 4rem;
     color:#fff;
     
    
 }
 
-#about #row #counter #box h3{
+.about .row .counter .box h3{
     font-size: 2rem;
     color:#fff;
 }
-#education #box-container{
+.education .box-container{
     background: url(../img/bg.jpg);
     margin-top: -300px;
     height: 550px;
 }
-#education{
+.education{
     margin-top: -50px;
 }
-#education #box-container{
+.education .box-container{
     display: flex;
     margin-top: -20px;
     align-items: center;
@@ -274,7 +272,7 @@ section{
     padding-left: 3rem;
 }
 
-#education #box-container #box{
+.education .box-container .box{
     width:25rem;
     margin-top:-10px;
     margin-left: 60px ;
@@ -283,7 +281,7 @@ section{
     position: relative;
 }
 
-#education #box-container #box span{
+.education .box-container .box span{
     font-family: 'Satisfy', cursive;
     font-size: 18px;
     color:#fff; 
@@ -292,13 +290,13 @@ section{
     padding:.5rem 2.5rem; 
 }
 
-#education #box-container #box h3{
+.education .box-container .box h3{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
 }
 
-#education #box-container #box p{
+.education .box-container .box p{
     font-family: 'Merriweather', serif;
     font-size: 1.4rem;
     margin-top: 20px;
@@ -306,15 +304,15 @@ section{
     padding: 1rem 0;
 }
 
-#portfolio{
+.portfolio{
     margin-top: -5px;
 }
-#box-container{
+.box-container{
     background: url(../img/bg3.jpg);
     border-radius: 25px;
     height: 550px;
 }
-#portfolio #box-container{
+.portfolio .box-container{
     margin-top: -20px;
     display: flex;
     align-items: center;
@@ -322,7 +320,7 @@ section{
     flex-wrap: wrap;
     padding:2rem 0;
 }
-#portfolio #box-container #box{
+.portfolio .box-container .box{
     height: 20rem;
     width:26rem;
     border-radius: 15px 50px;
@@ -331,36 +329,36 @@ section{
     cursor: pointer;
 }
 
-#portfolio #box-container #box img{
+.portfolio .box-container .box img{
     height:100%;
     width:100%;
     object-fit: cover;
 }
 
-#portfolio #box-container #box:hover img{
+.portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
-#contact #row{
+.contact .row{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#contact #row #content{
+.contact .row .content{
     flex:1 1 30rem;
     padding:4rem;
     padding-bottom: 0;
 }
 
-#contact #row form{
+.contact .row form{
     flex:1 1 45rem;
     padding:2rem;
     margin:2rem;
     margin-bottom: 4rem;
 }
 
-#contact #row form #box{
+.contact .row form .box{
     padding:1.5rem;
     margin:1rem 0;
     background:#3333;
@@ -370,16 +368,16 @@ section{
     width:100%;
 }
 
-#contact #row form #box::placeholder{
+.contact .row form .box::placeholder{
     text-transform: capitalize;
 }
 
-#contact #row form #message{
+.contact .row form .message{
     height: 10rem;
     resize: none;
 }
 
-#contact #row #content #title{
+.contact .row .content .title{
     text-transform: uppercase;
     color:#fff;
     font-size: 3rem;
@@ -387,13 +385,13 @@ section{
     margin-left: 10px;
     padding-bottom: 2rem;
 }
-#contact #row #content #info{
+.contact .row .content .info{
     background: url(../img/bg2.jpg);
     border-radius: 20px 80px;
      margin-top: -25px;
     height: 200px;
 }
-#contact #row #content #info h3{
+.contact .row .content .info h3{
     display: flex;
     align-items: center;
     top: 2px;
@@ -404,31 +402,17 @@ section{
     font-weight: normal;
 }
 
-#contact #row #content #info h3 i{
+.contact .row .content .info h3 i{
     padding-right: 1rem;
     color:var(--violet);
 }
 
     
 }
-#top{
+.top{
     position: fixed;
     bottom:7.5rem; right: 2rem;
     z-index: 100;
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
