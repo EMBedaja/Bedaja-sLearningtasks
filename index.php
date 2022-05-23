@@ -23,18 +23,18 @@
 
     <nav class="navbar">
        
-            <p><a href="#home">Home</a></p>
-            <p><a href="#about">About</a></p>
-            <p><a href="#education">Education</a></p>
-            <p><a href="#portfolio">Works</a></p>
-            <p><a href="#contact">Contact</a></p>
+            <p><span href="#home">Home</span></p>
+            <p><span href="#about">About</span></p>
+            <p><span href="#education">Education</span></p>
+            <p><span href="#portfolio">Works</span></p>
+            <p><span href="#contact">Contact</span></p>
        
     </nav>
 
 </header>
 
 <div id="menu" class="fas fa-bars"></div>
-
+s
 <div class="home" id="home">
     <img src="img/webdevelop.jpg" alt="background" width="1000px" height="570px" >
     <h1>Hi, I'm <span>Ella Marie</span></h1>
