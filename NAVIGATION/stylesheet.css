@@ -1,10 +1,13 @@
 body {
 	margin:0;
 	background-color: #eaeaea;
+    background-image: linear-gradient(to right, #030409 ,#C6CADB );
+   
 }
 .navbar {
   overflow: hidden;
   background-color: #494c59;
+  background-image: linear-gradient(to right, #1F2129 , #A9ACB6, #1F2129 );
   position: fixed;
   top: 0;
   width: 100%;
@@ -32,22 +35,23 @@ body {
 }
 .main h1 {
  margin-top:5%;
- margin-left:50px;
+ margin-left:20%;
  text-align: center;
- color: #2d2d2d;
+ color: #F4F4F4;
  
  }
 
 .main p {
-  margin-left:50px;
+  margin-left:20%;
   font-size: 25px;
   text-align: center;
-  color: #413F42;
+  color: #FFFFFF;
 }
 .sidebar {
   margin-top: 28px;
   width: 250px;
   background-color:#6b6b6b;
+background-image: linear-gradient(to bottom right,#1F2129 ,  #A9ACB6);
   position: fixed;
   height: 1200px;
   overflow: auto;
@@ -66,17 +70,68 @@ body {
   width:50px;
 
  }
-.dark img{
+.lion img{
 	border-radius:0px 60px;
-	margin-top:10% ;
+	margin-top:5% ;
 	 width:400px;
-	 margin-left:500px;
+	 margin-left:350px;
  }
-
+.lion p{
+    font-size:35px;
+    letter-spacing: 2px;
+    font-family: 'Great Vibes', cursive;
+    color: #FFFFFF;
+    margin-top:-19% ;
+    margin-left:650px;
+}
+.flower img{
+	border-radius:0px 60px;
+	margin-top:12% ;
+	 width:400px;
+	 margin-left:820px;
+}
+.flower p{
+    font-size:35px;
+    letter-spacing: 2px;
+    font-family: 'Great Vibes', cursive;
+    color: #FFFFFF;
+    margin-top:-13% ;
+    margin-left:400px;
+    text-align: left;
+}
+.smile img{
+	border-radius:0px 60px;
+	margin-top:5% ;
+	 width:400px;
+	 margin-left:350px;
+}
+.smile p{
+    font-size:35px;
+     letter-spacing: 2px;
+    font-family: 'Great Vibes', cursive;
+    color: #FFFFFF;
+   margin-top:-12% ;
+    margin-left:680px;
+}
+.skull img{
+	border-radius:0px 60px;
+	margin-top:8% ;
+	 width:400px;
+	margin-left:820px;
+}
+.skull p {
+    font-size:35px;
+    letter-spacing: 2px;
+    font-family: 'Great Vibes', cursive;
+    color: #FFFFFF;
+    margin-top:-15% ;
+    margin-left:297px;
+    text-align: left;
+}
 .main .map{
    float:left;
-   margin-top:10%;
-   margin-left:35%;
+   margin-top:5%;
+   margin-left:44%;
    margin-bottom:5%;
    border:0;
    width:500px;
